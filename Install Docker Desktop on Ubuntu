@@ -62,4 +62,8 @@ first pull nginx
 16.docker commit(saved the images)
 17 .docker push(uplod the repo in the images)
 18.docker rmi(remove images)
-19.
+19.docker copy
+20.docker logs pythonCOntainer1
+21.docker volume
+22. docker logout
+
