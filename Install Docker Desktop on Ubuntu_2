@@ -15,8 +15,7 @@ def myFun(m1, m2):
 print("lalita pagal hai")
 myFun(12,213)
 $docker build -t pythonproject .
-$docker run --name pythonProje
-ct pythonproject
+$docker run --name pythonProject pythonproject
 
 
 
