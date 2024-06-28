@@ -58,5 +58,8 @@ docker ps
 13.$docker run --name nginxServer -d -p 8080:80 nginx
 first pull nginx
 14.docker run --name httpdServer -d -p 8081:80 httpd
-15.
-
+15.docker login
+16.docker commit(saved the images)
+17 .docker push(uplod the repo in the images)
+18.docker rmi(remove images)
+19.
