@@ -2,12 +2,21 @@
 open vscode create a file name Dockerfile 
 
 paste this code inside the file 
-FROM ubuntu
-MAINTAINER anoop
-#RUN sudo apt-update
-CMD ["echo", "this is my first image"]
+FROM python 
+WORKDIR /usr/src/myapp
+COPY . /usr/src/myapp/
+CMD ["python3","main.py"]
 
-$docker build -t myubuntuimage .
+
+main.py 
+print("hello world how r u ")
+def myFun(m1, m2):
+    print("sum is",(m1+m2))
+print("lalita pagal hai")
+myFun(12,213)
+$docker build -t pythonproject .
+$docker run --name pythonProje
+ct pythonproject
 
 
 
