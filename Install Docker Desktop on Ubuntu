@@ -37,3 +37,15 @@ To enable Docker Desktop to start on sign in, from the Docker menu, select Setti
 Alternatively, open a terminal and run:
 $systemctl --user enable docker-desktop
 
+
+1. docker --version
+2. docker run hellow-world
+3. docker -V
+4. docker pull [imageName]
+docker pull hello-world
+5.docker pull python
+6.docker search mysql
+7.docker ps (list of the container)
+8.docker ps -a(created all container)
+9. 
+
