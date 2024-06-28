@@ -47,5 +47,10 @@ docker pull hello-world
 6.docker search mysql
 7.docker ps (list of the container)
 8.docker ps -a(created all container)
-9. 
+9. docker run --name pythonContainer -d python(container run )
+10. docker run --name pythonCOntainer -it -d python(continue run your container)
+check status
+docker ps 
+11.docker exec -it 839a222083df python3 (enter into the container)
+12. 
 
