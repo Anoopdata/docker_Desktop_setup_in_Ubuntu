@@ -18,6 +18,19 @@ $docker build -t pythonproject .
 $docker run --name pythonProject pythonproject
 
 
+deploy project react 
 
- 
+Dockerfile.dev
+FROM node:alpine
+WORKDIR /app
+COPY ./package.json /app
+RUN npm install 
+COPY . /app
+CMD ["npm","start"]
+
+.dockerignore
+node_modules
+README.node
+.gitignore
+
 
