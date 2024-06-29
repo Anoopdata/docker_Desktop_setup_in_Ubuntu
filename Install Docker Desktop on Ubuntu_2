@@ -33,4 +33,4 @@ node_modules
 README.node
 .gitignore
 
-
+$docker build -f Dockerfile.dev -t reactapp .
